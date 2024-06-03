@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "V9cawJEKZjuOIWARp",
+      });
+   })();
+</script>
+<script src="script.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marx App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="marx.png" width="100px" alt="Logo Marx" id="logo">
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="games.html">Games</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Bienvenue chez Marx</h1>
+            <p>Découvrez nos derniers articles et actualités.</p>
+        </section>
+        <section id="blog">
+            <h2>Articles Récents</h2>
+            <article>
+                <h3>Urbex</h3>
+                <p>Nous sommes en train de travailler sur un nouveau jeu nommé Urbex, ce jeu sera un RPG 2d dans lequel vous devrez filmer une vidéo d'Urbex.</p>
+            </article>
+            <article>
+                <h3>Gerome's Adventure</h3>
+                <p>La demo de notre Jeux est enfin sortie!
+
+                    Aidez Gerome a sauver ses amis du mechant sorcier! Avec ce platformer 2d,
+                    
+                    Vous n'êtes pas prêt de vous ennuyer!
+                    
+                    telecharger:
+                    
+                    </p>
+                    <a href="https://www.mediafire.com/file/j4fs8xhrz1p45dk/Gerome%2527s_Adventure_V1.0.5.zip/file"><button>Download now!</button></a>
+            </article>
+        </section>
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <form id="contact-form">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Marx. Tous droits réservés.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
